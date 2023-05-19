@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HP\source\repos\BeathanyPieShop\BeathanyPieShop
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/HP/source/repos/BeathanyPieShop/BeathanyPieShop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/BeathanyPieShop/BeathanyPieShop/Views/Pie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/source/repos/BeathanyPieShop/BeathanyPieShop/Views/Pie/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
