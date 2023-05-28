@@ -1,6 +1,4 @@
-﻿@using BethanyPieShop.ViewModels;
-@using BethanyPieShop.Models;
-@model HomeViewModel
+﻿@model HomeViewModel
 
 <partial name="_Carousel" />
 
@@ -13,7 +11,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             @foreach (var pie in Model.PiesOfTheWeek)
             {
-                <partial name="_PieCard" />
+                <partial name="_PieCard" model="pie" />
             }
         </div>
 
