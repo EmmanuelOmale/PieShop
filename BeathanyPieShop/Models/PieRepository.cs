@@ -1,5 +1,4 @@
-﻿using BeathanyPieShop.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace BethanyPieShop.Models
 {

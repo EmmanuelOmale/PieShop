@@ -1,0 +1,25 @@
+﻿@using BeathanyPieShop.Models;
+@using BethanyPieShop.Models;
+@model Pie
+
+<div class="col">
+    <div class="card pie-card">
+        <img src="@Model.ImageThumbnailUrl" class="card-img-top" alt="@Model.Name">
+        <div class="card-body pie-button">
+            <h8 class="d-grid">
+            </h8>
+
+            <div class="d-flex justify-content-between mt-2">
+                <h2 class="text-start">
+                    <a class="pie-link"
+                       asp-controller="Pie"
+                       asp-action="Details"
+                       asp-route-id="@Model.PieId">@Model.Name</a>
+                </h2>
+                <h5 class="text-nowrap">
+                    @Model.Price.ToString("c")
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>

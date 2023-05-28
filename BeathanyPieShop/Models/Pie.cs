@@ -1,4 +1,6 @@
-﻿namespace BeathanyPieShop.Models
+﻿using BeathanyPieShop.Models;
+
+namespace BethanyPieShop.Models
 {
     public class Pie
     {
@@ -11,7 +13,7 @@
         public string? ImageUrl { get; set; }
         public bool IsPieOfTheWeek { get; set; }
         public bool InStock { get; set; }
-        public int CategoryId { get; set; }  
+        public int CategoryId { get; set; }
         public Category Category { get; set; } = default!;
         public string ImageThumbnailUrl { get; internal set; } = string.Empty;
     }

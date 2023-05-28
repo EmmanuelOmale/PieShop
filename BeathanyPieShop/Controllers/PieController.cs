@@ -1,5 +1,6 @@
 ﻿using BeathanyPieShop.Models;
-using BeathanyPieShop.ViewModels;
+using BethanyPieShop.Models;
+using BethanyPieShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BeathanyPieShop.Controllers

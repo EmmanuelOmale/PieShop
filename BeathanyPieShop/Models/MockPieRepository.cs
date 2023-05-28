@@ -1,4 +1,6 @@
-﻿namespace BeathanyPieShop.Models
+﻿using BethanyPieShop.Models;
+
+namespace BeathanyPieShop.Models
 {
     public class MockPieRepository : IPieRepository
     {
